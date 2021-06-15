@@ -1,0 +1,34 @@
+server:
+  port: 8076
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:spring
+    platform: h2
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+  h2:
+    console:
+      enabled: true
+  profiles:
+    active: default
+my.id: 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
