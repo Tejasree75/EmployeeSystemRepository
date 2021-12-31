@@ -30,6 +30,10 @@ public class EmployeeController {
     public List<Request> getAllEmployees(){
          return employeeService.getAllEmployees();
     }
+    @GetMapping("/GetAllEmployees")
+    public List<Request> getAllEmployees(){
+         return employeeService.getAllEmployees();
+    }
 
     /**
      * Gets employee by id.
